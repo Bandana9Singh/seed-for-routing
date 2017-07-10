@@ -1,0 +1,8 @@
+<ul>
+    <li><a routerLink="">Home</a></li>
+    <li><a routerLink="messages">Messages</a></li>
+    <li><a routerLink="photos">Photos</a></li>
+    <li><a [routerLink]="['photo-detail',1]">Photos Detail</a></li>
+</ul>
+<button (click)="onClick()">Click pleaseeeee</button>
+<router-outlet></router-outlet>
